@@ -1,0 +1,2 @@
+To find the Practical Workshop, go to my profile linked on the README file of this directory.
+Then find the GitTest repository. There, on the README file, you will find detailed instructions to the workshop.
