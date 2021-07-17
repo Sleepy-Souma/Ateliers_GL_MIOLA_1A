@@ -1,0 +1,55 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{lipsum}
+\usepackage{graphicx}
+\title{\textsc{\textbf{Text}}}
+\author{Hiba Daoudi}
+\date{June 2021}
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents  
+\newpage
+\section{Introduction}
+\lipsum[2,4]
+\section{Creation tableau}
+\begin{table}[h]
+\centering
+\begin{tabular}{lllll}
+\cline{1-3}
+\multicolumn{1}{|l|}{test} & \multicolumn{1}{l|}{test2} & \multicolumn{1}{l|}{test3} &  &  \\ \cline{1-3}
+\multicolumn{1}{|l|}{A}    & \multicolumn{1}{l|}{2457}  & \multicolumn{1}{l|}{47}    &  &  \\ \cline{1-3}
+\multicolumn{1}{|l|}{B}    & \multicolumn{1}{l|}{147}   & \multicolumn{1}{l|}{95}    &  &  \\ \cline{1-3}
+                           &                            &                            &  & 
+
+\end{tabular}
+\caption{\label{tab:frog}exemple tableau.}
+\end{table}
+
+\subsection{Creation de sout titre}
+\lipsum[2,4]
+\section{Listes}
+
+\begin{enumerate}
+\item Miola,
+\item Master.
+\end{enumerate}
+\dots 2020/2022 \dots
+\begin{itemize}
+\item test1,
+\item test2.
+\end{itemize}
+\newpage
+\section{Ajouter image}
+\begin{figure}[ht]
+\centering
+\includegraphics[width=1\textwidth]{OIP.jpg}
+\caption{\label{fig:frog}exemple image.}
+\end{figure}
+
+\listoffigures
+
+\listoftables
+\end{document}
+
